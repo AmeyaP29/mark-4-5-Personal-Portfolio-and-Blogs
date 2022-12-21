@@ -23,7 +23,7 @@ background-color: #efe6bf;
     --primary-color: #f9a8d4;
     --maroon: #831843;
     --gray: #88a5ab;
-    --off-white: #fdf2f8;
+    --off-white: #ffe7f4;
 
 }
 
@@ -97,6 +97,7 @@ hr {
     padding: 2rem;
     background-color: var(--off-white);
     text-align: center;
+    border-radius:1.5rem;
 }
 
 .container {
@@ -215,4 +216,11 @@ padding-inline-start: 0px;
     color: var(--maroon);
     font-size: larger;
 
+}
+
+#portfolio-link {
+
+    display:block;
+    width:fit-content;
+    margin: 0.5rem auto 0rem;
 }
