@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* html {
+
+background-color: #efe6bf;
+
+} */
+
+/* * {
+
+    border: #831843 solid 2px;
+    margin: 20px;
+} */
+
+:root {
+
+    --primary-color: #f9a8d4;
+    --maroon: #831843;
+    --gray: #88a5ab;
+    --off-white: #fdf2f8;
+
+}
+
+.section h1 {
+
+    text-align: center;
+}
+
+
+.section-ow h1 {
+
+    text-align: center;
+}
+
+hr {
+
+    margin: 2rem 0rem;
+
+}
+
+.list-non-bullet {
+
+    list-style: none;
+
+}
+
+.list-item-inline {
+
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.hero {
+
+
+    padding: 2rem;
+
+}
+
+.hero .hero-image {
+
+    display: block;
+    margin: auto;
+    max-width: 350px;
+
+}
+
+.hero .hero-heading {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    color: var(--gray);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .highlight {
+
+    color: var(--maroon);
+}
+
+.section {
+
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.section-ow {
+
+    padding: 2rem;
+    background-color: var(--off-white);
+    text-align: center;
+}
+
+.container {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.navigation .nav-pills {
+
+    text-align: right;
+}
+
+.navigation .link {
+
+    color: white;
+
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.link-primary {
+
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.link-primary:hover {
+
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.link-secondary:hover {
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+
+}
+
+.link-secondary {
+
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.link-active {
+
+    font-weight: bold;
+
+}
+
+.footer {
+
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+
+    color:white;
+}
+
+.footer .list-non-bullet {
+
+padding-inline-start: 0px;
+
+}
+
+.socials {
+
+    height: 3rem;
+    width:auto;
+}
+
+.socials:hover {
+
+    height: 4rem;
+    width:auto;
+}
+
+.nav-pills .link:hover {
+
+    color: var(--maroon);
+    font-size: larger;
+
+}
