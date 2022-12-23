@@ -15,7 +15,7 @@ background-color: #efe6bf;
 /* * {
 
     border: #831843 solid 2px;
-    margin: 20px;
+    
 } */
 
 :root {
@@ -23,7 +23,8 @@ background-color: #efe6bf;
     --primary-color: #f9a8d4;
     --maroon: #831843;
     --gray: #88a5ab;
-    --off-white: #ffe7f4;
+    --off-white: #f7e2ed;
+    --yellow:#ece3bc;
 
 }
 
@@ -89,6 +90,8 @@ hr {
 
     padding: 2rem;
     text-align: center;
+    /* background-color: var(--yellow); */
+    border-radius: 1.5rem;
 
 }
 
@@ -98,6 +101,9 @@ hr {
     background-color: var(--off-white);
     text-align: center;
     border-radius:1.5rem;
+    margin: 2rem;
+
+
 }
 
 .container {
