@@ -252,7 +252,7 @@ display: inline;
 margin: 0rem 1rem 0rem 88%;
 color: white;
 text-decoration: none;
-background-color: black;
+background-color: var(--maroon);
 border-radius: 0.5rem;
 padding: 0.2rem 0.5rem;
 
@@ -261,7 +261,7 @@ padding: 0.2rem 0.5rem;
 
 .footer .back-to-top:hover {
 
-    color: black;
+    color: var(--maroon);
     background-color: white;
     /* size: 110%; */
     
