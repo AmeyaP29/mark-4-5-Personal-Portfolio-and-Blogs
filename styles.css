@@ -27,6 +27,12 @@ background-color: #efe6bf;
     
 } */
 
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 :root {
 
     --primary-color: #f9a8d4;
@@ -239,3 +245,25 @@ padding-inline-start: 0px;
     width:fit-content;
     margin: 0.5rem auto 0rem;
 }
+
+.footer .back-to-top {
+
+display: inline;
+margin: 0rem 1rem 0rem 88%;
+color: white;
+text-decoration: none;
+background-color: var(--maroon);
+border-radius: 0.5rem;
+padding: 0.2rem 0.5rem;
+
+
+}
+
+.footer .back-to-top:hover {
+
+    color: var(--maroon);
+    background-color: white;
+    /* size: 110%; */
+    
+    
+    }
